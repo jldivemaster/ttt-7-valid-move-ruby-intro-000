@@ -3,7 +3,7 @@ def valid_move?(board, index)
   if !(0..8).include?(index)
     return false
   end
-  
+
   if (board[index] == " ") || (board[index] == "") || (board[index] == nil)
     return false
   end
